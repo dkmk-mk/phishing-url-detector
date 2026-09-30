@@ -29,3 +29,8 @@ Python 3.12 · uv · PyTorch (MPS) · scikit-learn · pandas · JupyterLab · Ol
 Dataset: [PhiUSIIL Phishing URL Dataset](https://archive.ics.uci.edu/dataset/967) (UCI ML Repository, 235,795 URLs)
 
 ## Run it
+
+    uv sync
+    uv run jupyter lab
+
+Open `Phishing.ipynb`. Ollama must be running, with `llama3.2:3b` pulled.
